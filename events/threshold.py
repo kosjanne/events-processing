@@ -9,5 +9,5 @@ def is_within(event):
 
 def _fetch_threshold(event):
     device_profile = profile.fetch_for_device(event)
-    threshold = device_profile["threshold"]
+    threshold = device_profile["thresholds"]
     return (threshold["lower"], threshold["upper"])

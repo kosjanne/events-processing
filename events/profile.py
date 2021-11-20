@@ -1,5 +1,6 @@
 profiles = {
-    "abc": [{"type": "load", "thresholds": {"upper": 80, "lower": 20}, "window": 10}]
+    "abc": [{"type": "load", "thresholds": {"upper": 80, "lower": 20}, "window": 4}],
+    "123": [{"type": "load", "thresholds": {"upper": 80, "lower": 20}, "window": 2}],
 }
 
 # In real life this would need some thought. We might call this a lot so we probably
